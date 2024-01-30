@@ -8,4 +8,5 @@ jobs:
   pre-commit:
     uses: cybcon/github_workflows/.github/workflows/pre-commit.yaml@bugfix/delta_branch_process
     with:
+      # do delta scan
       full_precommit: false
